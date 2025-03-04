@@ -136,7 +136,7 @@ export default function Hero() {
           течение дня или нескольких часов
         </p>
 
-        <div className="relative max-md:mx-[-1.5rem] overflow-hidden rounded-xl max-md:rounded-b-none border border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 p-6 px-6">
+        <div className="relative max-md:mx-[-1.5rem] overflow-hidden rounded-xl border border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 p-6 px-6">
           {!formSubmitted ? (
             <>
               <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">

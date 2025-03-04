@@ -117,7 +117,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative pt-24 py-20 max-md:pb-0" id="order">
+    <div className="relative pt-24 py-20" id="order">
       <div className="absolute top-0 left-0 h-full w-full">
         <Image
           width={1920}
@@ -127,7 +127,7 @@ export default function Hero() {
           className="h-full w-full opacity-30 object-cover object-center blur-xs"
         />
       </div>
-      <div className="max-w-4xl mx-auto px-6 lg:px-8 relative  ">
+      <div className="max-w-4xl mx-auto px-6 lg:px-8 relative ">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-6 sm:mb-8  mt-6 sm:mt-8 text-left md:text-center">
           Курьерская доставка по Москве
         </h1>
@@ -136,7 +136,7 @@ export default function Hero() {
           течение дня или нескольких часов
         </p>
 
-        <div className="relative max-md:mx-[-1.5rem] overflow-hidden rounded-xl max-md:rounded-b-none border border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 p-6 px-6">
+        <div className="relative max-md:mx-[-2rem] overflow-hidden rounded-lg border border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 p-6 px-8">
           {!formSubmitted ? (
             <>
               <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">

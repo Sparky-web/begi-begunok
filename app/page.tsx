@@ -6,6 +6,7 @@ import Pricing from "@/app/components/Pricing";
 import Business from "@/app/components/Business";
 import CTA from "@/app/components/CTA";
 import Footer from "@/app/components/Footer";
+import CompanyRequisites from "@/components/requisites";
 
 export default function Home() {
   return (
